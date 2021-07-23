@@ -10,6 +10,10 @@ public class CopyLogsToS3 {
 	
 	private static String filePath = "D:/radiantone/vds/vds_server/logs/vds_server_archive";
 
+	/**
+	 * 
+	 * @param args
+	 */
 	public static void main(String[] args) {
 		
 		List<String> fileList = LogsRepository.getLogsList(filePath);
